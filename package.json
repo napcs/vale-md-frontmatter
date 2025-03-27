@@ -4,7 +4,7 @@
   "description": "Lint Markdown Frontmatter with Vale",
   "main": "index.js",
   "bin": {
-    "vale-md-frontmatter": "./bin/cli.js"
+    "vale-md-frontmatter": "bin/cli.js"
   },
   "scripts": {
     "test": "mocha test/**/*.test.js"
@@ -13,6 +13,10 @@
     "Vale"
   ],
   "author": "Brian P. Hogan <brianhogan@napcs.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napcs/vale-md-frontmatter.git"
+  },
   "license": "MIT",
   "dependencies": {
     "glob": "^11.0.1",
